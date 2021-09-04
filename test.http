@@ -1,0 +1,11 @@
+### DEFAULT NAMESPACE
+GET http://localhost:4004/say/readDefaultNamespace() HTTP/1.1
+Content-Type: application/json
+
+### 
+GET http://localhost:4004/say/readWithNamespaceInEntities() HTTP/1.1
+Content-Type: application/json
+
+### 
+GET http://localhost:4004/say/readNamespaceInFrom() HTTP/1.1
+Content-Type: application/json
